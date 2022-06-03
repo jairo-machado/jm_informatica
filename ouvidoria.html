@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JM Informática (Não oficial)</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="./script.js"></script>
+
+        <div>
+            <img class="logo_pagina" src="./Imagens/Logo_icones/imagem_logo.png">
+            <div class="menu_naveg">
+                <a href="pag_inicial.html" class="botao">Página Inicial</a>
+                <a href="produtos.html" class="botao">Produtos</a>
+                <a href="carrinho.html" class="botao">Carrinho</a>
+                <a href="ouvidoria.html" class="botao">Fale Conosco</a>
+            </div>
+        </div>
+    </head>
+<body>
+    <h1>Fale Conosco</h1>
+    <form id="ouvidoria">
+        <div>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome"/>
+        </div>
+        <div>
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" />
+        </div>
+        <div>
+            <label>Tipo de Contato:</label>
+            <input type="radio" id="reclamacao" name="tipo_contato" value="reclamacao">
+            <label for="reclamacao">Reclamação</label>
+            <input type="radio" id="elogio" name="tipo_contato" value="elogio">
+            <label for="elogio">Elogio</label>
+            <input type="radio" id="comercial" name="tipo_contato" value="comercial">
+            <label for="comercial">Comercial</label>
+        </div>
+        <div>
+            <label for="msg">Mensagem:</label><br>
+            <textarea id="msg"></textarea>
+        </div>
+        <div>
+            <button type="button" onclick="verificar()">Enviar sua mensagem</button>
+        </div>
+    </form>
+</body>
+<footer class="rodape">
+	<header>
+		<h3>Informações de contato:</h3>
+	</header>
+	<ul class="contato">
+		<li>EMAIL: <a class="link" id="link_email" href="mailto:jairoaugus@gmail.com" target="_blank">jairoaugus@gmail.com</a></li>
+		<li>LinkedIn: <a class="link" href="https://www.linkedin.com/in/jairo-augusto-martins-machado-a043741a2/" target="_blank">Jairo Machado</a></li>
+		<li>Github: <a class="link" href="https://github.com/jairo-machado" target="_blank">Github</a></li>
+	</ul>
+	<h4>Sobre o site:</h4>
+	<p>Este site foi desenvolvido por Jairo Augusto Martins Machado como um meio de aolicar e aprimorar meus conhecimentos em páginas web e conhecimentos relacionados.
+	</p>
+</footer>
+</html>

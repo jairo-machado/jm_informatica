@@ -1,0 +1,24 @@
+1)Criar um Site em HTMLseguindo as seguintes características:
+    Um pequeno site de compras, contendo 4 opções:
+        1.Página inicial contendo os seguintes itens:
+            oNo mínimo dois produtos em destaqueoNo mínimo uma notícia
+        2.Uma pagina contendo uma listagem maior de produtos
+        3.Uma página contendo os produtos que o usuário selecionou
+        4.Umapágina de “fale conosco”
+    Observações em relação ao site:
+        •A estrutura do site deve contemplar cabeçalho e rodapé, o que isso quer dizer, na parte de cima do site deve ser colocada 
+            uma imagem com o nome do site, e no rodapé devem ser colocadas informações relativas ao contato do desenvolvedor
+            (Nome, telefone e e-mail)
+        •Todos os produtos (Produtos em destaque e na listagem) devem apresentar uma imagem ilustrativa, uma pequena descrição e
+            um link com o texto “Adicionar ao carrinho”;
+        •Todas as páginas criadas devem apresentar um menu navegável, criar links locais entre as páginas .html, por exemplo,
+            se o usuário estiver na página inicial ele conseguirá ir para a página com a listagem de produtos, e vice versa;
+
+Dando continuidade ao site construído anteriormente na primeira parte efetue as seguintes modificações:
+    Adicionar estilo ao site utilizando CSS, este estilo deve ser informado em um arquivo externo;
+    Inserir tratamento nos campos do formulário “fale conosco” utilizando Javascript, de forma que ao clicar no botão de 
+    envio é verificado se os campos estão preenchidos pelo usuário;
+
+Na data do dia 29/04 o aluno deve apresentar o site construído ao professor para avaliação. Todos os itens solicitados (primeira parte e segunda parte) serão verificados.
+Atenção: a segunda parte deve ser entregue através da tarefa no Teams.
+Meu trabalho
