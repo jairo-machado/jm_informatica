@@ -1,4 +1,4 @@
-1)Criar um Site em HTMLseguindo as seguintes características:
+﻿1)Criar um Site em HTMLseguindo as seguintes características:
     Um pequeno site de compras, contendo 4 opções:
         1.Página inicial contendo os seguintes itens:
             oNo mínimo dois produtos em destaqueoNo mínimo uma notícia
@@ -21,4 +21,4 @@ Dando continuidade ao site construído anteriormente na primeira parte efetue as
 
 Na data do dia 29/04 o aluno deve apresentar o site construído ao professor para avaliação. Todos os itens solicitados (primeira parte e segunda parte) serão verificados.
 Atenção: a segunda parte deve ser entregue através da tarefa no Teams.
-Meu trabalho
+Meu trabalho.
