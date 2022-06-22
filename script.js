@@ -30,3 +30,11 @@ function verificar(){
         document.getElementById("msg").focus();
     }
 }
+
+function verificar_campos(){
+    if(document.getElementById("login").value==""){
+        alert("Campo Login está vazio!");
+    }else if(document.getElementById("senha").value==""){
+        alert("Campo Senha está vazio!")
+    }
+}
