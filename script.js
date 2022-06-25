@@ -7,14 +7,6 @@ function verificar(){
         alert("Campo Email está vazio!");
         document.getElementById("email").focus();
     }
-    //if(document.getElementById("reclamacao").cheked =true ||  document.getElementById("elogio").cheked = true || document.getElementById("reclamacao").cheked = true){
-    //   alert("ok")
-    //}else{
-    //    alert("adjsdçlsndflkshdn")
-    //}
-    //if(document.getElementsByName("tipo_contato")[0].cheked == false){
-    //    alert("adsdsads")
-    //}
     var radios = document.getElementsByName("tipo_contato");
     var check_radio = false;
     for (var i = 0; i < radios.length; i++) {
@@ -35,6 +27,22 @@ function verificar_campos(){
     if(document.getElementById("login").value==""){
         alert("Campo Login está vazio!");
     }else if(document.getElementById("senha").value==""){
-        alert("Campo Senha está vazio!")
+        alert("Campo Senha está vazio!");
     }
+}
+
+function verificar_campos_prod(){
+    if(document.getElementById("nome").value==""){
+        alert("Campo Nome está vazio!");
+    }else if(document.getElementById("preco").value==""){
+        alert("Campo Preço está vazio!");
+    }else if(document.getElementById("endereco").value==""){
+        alert("Campo Endereço está vazio!");
+    }else if(document.getElementById("destaque").value==""){
+        alert("Campo Destaque está vazio!");
+    }
+}
+
+function sucesso(){
+    alert("Cadastro Realizado com sucesso!");
 }

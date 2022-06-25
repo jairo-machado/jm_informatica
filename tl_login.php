@@ -13,7 +13,7 @@
                 <label for="login">Login:</label>
             </div>
             <div>
-                <input class="form_input" type="text" id="login"/>
+                <input class="form_input" type="text" id="login" name="login"/>
             </div>
         </div>
         <div class="forms">
@@ -21,7 +21,7 @@
                 <label for="senha">Senha:</label>
             </div>
             <div>
-                <input class="form_input" type="password" id="senha"/>
+                <input class="form_input" type="password" id="senha" name="senha"/>
             </div>
         </div>
         <div>

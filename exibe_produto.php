@@ -12,15 +12,29 @@ if($pag_atual == "/jminformatica/produtos.php"){
 }
 $total = mysqli_num_rows($resultado);
 //echo "Total de registros " . $total . "<br>";
-for($i=0;$i<$total;$i++){
-    $linha = mysqli_fetch_object($resultado);
-    echo '<div class="quadrado">
-            <div class="imagem"><img class="produtos" src="' . $linha->src_imagem . '" alt="Foto SSD"></div>
-            <div class="lol"><p>' . $linha->nome . '</p></div>
-            <div class="rsrs"><p>R$' .$linha->preco . '</p></div>
-            <div class="add_to"><a href="paloma">Adicionar ao Carrinho</a></div>
-        </div>';
+if(isset($_SESSION["menu_func"])){
+    for($i=0;$i<$total;$i++){
+        $linha = mysqli_fetch_object($resultado);
+        echo '<div class="quadrado">
+                <div class="imagem"><img class="produtos" src="' . $linha->src_imagem . '" alt="Foto SSD"></div>
+                <div class="lol"><p>' . $linha->nome . '</p></div>
+                <div class="rsrs"><p>R$' .$linha->preco . '</p></div>
+                <div class="add_to"><a href="paloma">Adicionar ao Carrinho</a></div>
+                <div class="edit"><form action="tl_editar_produto.php" method="post">
+                    <button name="produto" type="submit" value= '. $linha->cod_produto . '>Editar</button>
+                </form></div>
+            </div>';
     }
-
+}else{
+    for($i=0;$i<$total;$i++){
+        $linha = mysqli_fetch_object($resultado);
+        echo '<div class="quadrado">
+                <div class="imagem"><img class="produtos" src="' . $linha->src_imagem . '" alt="Foto SSD"></div>
+                <div class="lol"><p>' . $linha->nome . '</p></div>
+                <div class="rsrs"><p>R$' .$linha->preco . '</p></div>
+                <div class="add_to"><a href="paloma">Adicionar ao Carrinho</a></div>
+            </div>';
+        }
+}
 mysqli_close($conexao);
 ?>

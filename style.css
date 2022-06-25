@@ -6,7 +6,9 @@
 	font-size: 14px;  
 	zoom: 1.10;
 	margin: 0;}
-
+a{
+	font-size: small;
+}
 .menu_naveg {
 	padding-top: 0px;
 	display:flex;
@@ -14,6 +16,7 @@
 	border: 1px solid lightgray;
 	background-color: #ffffff;
 	width: 100%;
+	align-items: center;
 }
 
 .destaque {
@@ -63,7 +66,9 @@
     border: 1px solid lightgray;
 	padding: 1rem;
 	width: 25%;
-	text-align: center;}
+	text-align: center;
+	height: 100%;
+}
 
 .logo_pagina {
 	display: block;
@@ -74,9 +79,9 @@
 
 .menu_logar{
 	position: absolute;
-	font-size: 32px;
 	top: 0px;
 	right: 0%;
+	display: flex;
 }
 #log{
 	color: #ffffffda;
@@ -97,7 +102,8 @@
 	padding-bottom: 5px;}
 
 .link{
-	color: #ffffffda;}
+	color: #ffffffda;
+}
 
 h1 {
 	font-size: large;
@@ -167,11 +173,20 @@ h1 {
     align-items: baseline;
     flex-direction: column;
     align-content: space-around;
-
 	padding-bottom: 5px;
 }
 
+.lolnao{
+	padding-left: 10px;
+	color: #ffffff;
+}
 
+
+.botao_edit{
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-around;
+}
 /*
 
 .forms{

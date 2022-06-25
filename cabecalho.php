@@ -18,5 +18,11 @@
 		<a href="produtos.php" class="botao">Produtos</a>
 		<a href="carrinho.php" class="botao">Carrinho</a>
 		<a href="ouvidoria.php" class="botao">Fale Conosco</a>
+		<?php
+		if(isset($_SESSION["menu_func"])){
+			echo '<a href="tl_cadastrar_prod.php" class="botao">Cadastrar Produtos</a>
+				  <a href="cadastrar_user.php" class="botao">Cadastrar Usuários</a>';
+		}
+		?>
 	</div>
 </head>
